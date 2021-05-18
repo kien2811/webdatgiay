@@ -1,0 +1,217 @@
+html,body{
+	font-family: 'Helvetica';
+	color: black !important;
+
+}
+
+
+
+/*phần body*/
+#body-feb #cap-feedback h5{
+	font-size: 25px;
+	font-weight: bold;
+}
+#body-feb #cap-feedback {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#body-feb #file-img-feb{
+	border: 1px solid black;
+	padding: 140px;
+}
+#body-feb input[type="file"]{
+	display: none;
+}
+#body-feb #file-img-feb label{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	/*background-color: red;*/
+}
+
+
+/*phần css hiển thị ảnh */
+.Choicefile
+  {
+   display:block;
+   background:#0877D8;
+   border:1px solid #fff;
+   color:#fff;
+   width:100px;
+   text-align:center;
+   text-decoration:none;
+   cursor:pointer;
+   padding:5px 0px;
+   }
+   #uploadfile,.removeimg
+   {
+    display:none;
+   }
+   #thumbbox
+   {
+    position:absolute;
+    top:20px;
+    left: 50px;
+   
+   }
+   .removeimg
+   {
+   background:  url("http://png-3.findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_05.png")  repeat scroll 0 0 transparent;
+   height: 24px;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   width: 24px;
+  
+   }
+
+
+#body-feb #conten-feb{	
+}
+
+#body-feb #conten-feb textarea{
+	width: 100%;
+	height: 68%;
+	text-indent: 2%;
+
+}
+/*đoạn này css tạo sao đánh giá*/
+div #stars {
+  width: auto;
+  display: inline-block;
+  
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+	  font-size: 18px;
+	  float: right;
+	  color: #444;
+	  transition: all .2s;
+ 	padding-right: 5px;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 3px red;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+/*kết thúc  ngôi sao*/
+
+
+#body-feb #but-feb{
+	float: right;
+}
+#body-feb #but-feb input{
+	padding-left: 20px;
+	padding: 20px;
+	text-indent: 0% ;
+	background-color: black;
+	border: 0px solid black;
+	color: white;
+}
+
+/*phần conten feedback*/
+#content-feb{
+	margin-top: 10px;
+}
+/*#content-feb #row{
+	background-color: red;
+	padding-bottom: 10px;
+}*/
+#content-feb{
+	background-color: #e9dede;
+}
+#content-feb h5{
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.fa-star {
+
+	color: gold;
+}
+#content-feb #img-feb{
+	max-width: 100%;
+	max-height: auto;
+
+}
+#content-feb #comenter-custormer{
+	/*border: 1px solid black;*/
+	background-color: white;
+	padding-top: 4%;
+   	
+
+}
+#content-feb #comenter-custormer span{
+	 word-break: break-all;
+
+}
+#content-feb #page-feb{
+/*	background-color: red;*/
+	padding-top: 10px;
+
+}
+#content-feb #page-feb a{
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 575.98px) { 
+
+	#body-feb input[type="file"]{
+	display: block;
+	}
+	#body-feb #file-img-feb label{
+		display: flex;
+		display: none;
+	}
+	#body-feb #file-img-feb{
+	border: none;
+	padding: 15px;
+	}
+	#thumbbox{
+		display: none;
+	}
+	#body-feb #conten-feb textarea{
+	width: 100%;
+	height: 70%;
+	text-indent: 5%;
+
+	}
+	#body-feb #but-feb input{
+	padding-left: 20px;
+	padding:8px;
+	text-indent: 0% ;
+	background-color: black;
+	color: white;
+	position: relative;
+	top: -55px;
+	}
+	#content-feb #page-feb a{
+	position: relative;
+	right:180%;
+	}
+
+}

@@ -1,0 +1,210 @@
+
+/* phần body *---------------------------------------------------------------*/
+#body-san-pham #cap-saech {
+	margin-top: 10px;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#body-san-pham #loc-san-pham h4{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#body-san-pham input[class=slide]{
+
+
+}
+#body-san-pham div[id=loc-san-pham]{
+background-color: white;
+border: 2px solid #e9dede;
+padding: 5px;
+position: relative;
+}
+
+
+#body-san-pham input[type=range] {
+  width: 100%;
+}
+
+#body-san-pham #val{
+  font-size: 15px;
+  position: absolute;
+  right:150px;
+  text-align: center;
+  top: 40%;
+  color: red;
+}
+#loc-san-pham input[id=loc]{
+	color: white;
+	background-color:  #ed1b24;
+	left: 80%;
+	border: 1px solid  #ed1b24;
+	position: relative;
+}
+#loc-san-pham input[id=loc]:hover{
+	box-shadow: 0px 0px 1px black;
+	color: black;
+}
+
+#body-san-pham div[id=size]{
+	background-color: #cccccc;
+}
+
+#body-san-pham div[id=gia]{
+	color:#9d9797;
+}
+#body-san-pham div[id=size] li {
+	background-color: #cccccc;
+	text-align: center;
+	list-style: none;
+	margin-top: 10px;
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ div[id=size] li a {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+div[id=san-pham-da-xem]{
+	margin-top: 30px;
+	border: 2px solid #e9dede;
+	padding: 5px;
+
+}
+div[id=san-pham-da-xem] div{
+	margin-top: 10px;
+	
+}
+div[id=san-pham-da-xem] img{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+div[id=sp-da-xem]{
+	background-color: #bebdbd;
+	position: relative;
+
+
+}
+#san-pham-da-xem h4{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+#san-pham-da-xem #layer_sale{
+	position: absolute;
+	top:-15px;left: 80%;
+}
+#san-pham-da-xem #layer_sale #sale{
+	background-color: #ed1b24;
+	width: 45px; height: 45px ;
+	border-radius: 50%;
+}
+#san-pham-da-xem #layer_sale #sale #nb_sale{
+	position: absolute;
+	top: 35%;left:10%;
+	color: white;
+}
+
+/*Sản phẩm ---------------------*/
+#boody .container #row{
+	padding-bottom: 10px;
+}
+#cap-sp{
+	background-color: #d9d9d926;
+	border-bottom: 1px solid #231f20;
+}
+#cap-sp a{
+	padding: 4px;
+	font-size: 20px;
+	color: #231f20;
+	text-decoration: none ;
+}
+#san-pham{
+	margin-top: 18px;
+	background-color: #eae8e8;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#san-pham:hover{
+    box-shadow: 2px 2px 3px #b8b2b2;
+
+}
+#san-pham li{
+	list-style: none;
+}
+#san-pham li a{
+	color: black;
+	text-decoration: none ;
+}
+#san-pham input{
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
+#san-pham #layer_sale{
+	position: absolute;
+	top: 5%;left: 75%;
+}
+#san-pham #layer_sale #sale{
+	background-color: #ed1b24;
+	width: 45px; height: 45px ;
+	border-radius: 50%;
+}
+#san-pham #layer_sale #sale #nb_sale{
+	position: relative;
+	top: 25%;left:3%;
+	color: white;
+}
+
+
+div[id=chuyen-trang] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 40%;
+	position: relative;
+}
+#chuyen-trang {
+	text-align: center;
+
+}
+
+
+
+@media (max-width: 575.98px){
+	#san-pham{
+		margin-bottom: 10px;
+	}
+	div[id=chuyen-trang] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30%;
+	position: relative;
+	}
+	#cap-sp{
+	background-color: #231f20;
+	border-bottom: none;
+	text-align: center;
+	}
+	#cap-sp a{
+		padding: 4px;
+		font-size: 15px;
+		color: white;
+		text-decoration: none ;
+	}
+}
+
+

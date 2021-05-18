@@ -1,0 +1,334 @@
+html,body{
+	font-family: 'Helvetica';
+	color: black !important;
+}
+
+#body-kgui h4{
+	font-weight: bold;
+	margin-top:10px;
+}
+#body-kgui #file-img-kgui{
+	/*background-color: red;*/
+	max-width:300px;
+	padding-bottom: 10px;
+}
+#body-kgui #file-img-kgui #file-img-kgui-main{
+	border: 1px solid #e9dede;
+	max-width:100%;
+	height: 280px;
+}
+#body-kgui #file-img-kgui #file-img-kgui-main:hover{
+	border: 1px solid black;
+
+}
+#body-kgui #file-img-kgui input[type="file"]{
+	display: none;
+}
+
+
+
+/*phần css hiển thị ảnh */
+.Choicefile
+  {
+   display:block;
+   background:#0877D8;
+   border:1px solid #fff;
+   color:#fff;
+   width:100px;
+   text-align:center;
+   text-decoration:none;
+   cursor:pointer;
+   padding:5px 0px;
+   }
+   #uploadfile,.removeimg
+   {
+    display:none;
+   }
+   #thumbbox
+   {
+    position:absolute;
+    top:0px;
+    left: 0px;
+   
+   }
+   .removeimg
+   {
+   background:  url("http://png-3.findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_05.png")  repeat scroll 0 0 transparent;
+   height: 24px;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   width: 24px;
+  
+   }
+
+
+/*phần css hiển thị ảnh mô tả*/
+.ChoicefileMT
+  {
+   display:block;
+   background:#0877D8;
+   border:1px solid #fff;
+   color:#fff;
+   width:100px;
+   text-align:center;
+   text-decoration:none;
+   cursor:pointer;
+   padding:5px 0px;
+   }
+   #uploadfileMT,.removeimgMT
+   {
+    display:none;
+   }
+   #thumbboxMT
+   {
+    position:absolute;
+    top:0px;
+    left: 0px;
+   
+   }
+   .removeimgMT
+   {
+   background:  url("http://png-3.findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_05.png")  repeat scroll 0 0 transparent;
+   height: 24px;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   width: 24px;
+  
+   }
+
+
+
+
+#body-kgui #file-img-kgui h5{
+	margin-top:15%;
+  	font-size: 15px;
+}
+#body-kgui #file-img-kgui #file-img-kgui-main label{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	position: relative;
+	top: 45%;
+	left: 30%;
+	color: #e9dede;
+}
+#body-kgui #file-img-kgui #file-img-kgui-main label:hover{
+	color:black;
+}
+#body-kgui #file-img-kgui #file-img-kgui-mota{
+	float: left;
+	border: 1px solid #e9dede;
+	margin-right: 5px;
+	margin-top: 5px;
+	width:130px;
+	height: 130px;
+}
+#body-kgui #file-img-kgui #file-img-kgui-mota:hover{
+	border: 1px solid black;
+}
+#body-kgui #file-img-kgui #file-img-kgui-mota label{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #e9dede;
+	top: 40%;
+	/*background-color: red;*/
+}
+#body-kgui #file-img-kgui #file-img-kgui-mota label:hover{
+	color: black;
+}
+
+
+/*phần from nhập thông tin-------------------------------------*/
+/*thông tin giày*/
+#dropdown {
+	margin-left:20%; 
+	}
+#body-kgui form #form-information{
+	border: 1px solid #e9dede;
+	margin-bottom: 10px;
+}
+#body-kgui form #form-information:hover{
+	box-shadow: 0px 0px 2px black;
+}
+#body-kgui form #form-information #information{
+	text-align: left;
+	margin:auto;
+	/*background-color: red;*/
+}
+#body-kgui form #form-information #information h5{
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+#body-kgui form #form-information #information .form-control{
+	width: 80%;
+	float: right;
+}
+
+#body-kgui form .w-100{
+	padding: 5px;
+}
+#body-kgui form .w-100:hover{
+	background-color: #e9dede;
+}
+#body-kgui form #size-qtt{
+	width: 260px;
+	text-align: center
+}
+#body-kgui form #size-qtt #qtt{
+	width: 50px;
+	height: 20px;
+}
+
+#body-kgui form #form-information #information #mota{
+	width: 80%;
+	float: right;
+}
+/*thông tin khách hàng*/
+#body-kgui form #form-information #information-customer{																	
+	/*background-color: green;*/
+	text-align: left;
+	margin:auto;
+}
+#body-kgui form #form-information #information-customer h5{
+	margin-top:5%;
+	font-weight: bold;
+	text-align: center;
+}
+#body-kgui form #form-information #information-customer .form-control{
+	width: 80%;
+	float: right;
+}
+
+#body-kgui form #form-information #note-kgui{
+																	
+/*	background-color: green;*/
+	text-align: left;
+	margin:auto;
+	margin-top: 7%;
+
+}
+#body-kgui form #form-information #note-kgui span{
+	font-size: 15px;
+	white-space: nowrap;
+	color: red;
+}
+
+#body-kgui form #form-information #but-kgui{																	
+/*	background-color: green;*/
+	margin-top: 2%;
+	color: white;
+	position: relative;
+
+}
+
+#body-kgui form #form-information #but-kgui input{																	
+	background-color: black;
+	width: 183px;
+	height: 60px;
+	font-size: 18px;
+	color: white;
+	border: 1px solid black;
+
+}
+#body-kgui form #form-information #but-kgui input:hover{																	
+/*	background-color: green;*/
+	color: green;
+	box-shadow: 0px 0px 3px green;
+}
+
+/*-----------------------------------------------------*/
+
+@media (max-width: 575.98px) { 
+
+
+
+	/*phần này của trang ký gửi------------------------*/
+	#body-kgui form #size-qtt{
+	width: 150px;
+	text-align: center
+	}
+	#dropdown {
+		margin-left:0%;
+	}
+
+	#body-kgui #file-img-kgui{
+	/*background-color: red;*/
+	max-width:100%;
+	padding-bottom: 10px;
+	}
+	#body-kgui #file-img-kgui #file-img-kgui-main{
+	border: 1px solid black;
+	max-width:80%;
+	height: 200px;
+	}
+	#body-kgui #file-img-kgui h5{
+	margin-top:2%;
+  	font-size: 15px;
+	}
+	#body-kgui #file-img-kgui #file-img-kgui-mota{
+	border: 1px solid black;
+	margin-right: 5px;
+	margin-top: 5px;
+	}
+	#body-kgui #file-img-kgui #file-img-kgui-mota label{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	position: relative;
+	top: 40%;
+	}
+
+	#body-kgui form #form-information #information .form-control{
+	width: 100%;
+	float: none;
+	}
+	#body-kgui form #form-information #information #mota{
+	width: 100%;
+	float: none;
+	}
+
+	#body-kgui form #size-qtt{
+	width: 260px;
+	text-align: center
+	}
+	#body-kgui form #size-qtt #qtt{
+		width: 50px;
+		height: 20px;
+	}
+
+	#body-kgui form #form-information #information-customer h5{
+	margin-top:12%;
+	}
+	#body-kgui form #form-information #information-customer .form-control{
+	width: 100%;
+	float: none;
+	}
+	#body-kgui form #form-information #note-kgui span{
+		font-size: 12px;
+		white-space: normal;
+		color: red;
+	}
+	#body-kgui form #form-information #but-kgui{																	
+/*	background-color: green;*/
+		text-align: center;
+		color: white;
+		padding-top: 4%;
+		padding-bottom: 4%;
+	}
+	#body-kgui form #form-information #but-kgui input{																	
+		background-color: black;
+		width: 100px;
+		height: 40px;
+		font-size: 14px;
+		color: white;
+		border: 1px solid black;
+	}
+
+}

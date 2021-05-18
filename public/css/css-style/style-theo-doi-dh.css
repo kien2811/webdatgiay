@@ -1,0 +1,61 @@
+html,body{
+	font-family: 'Helvetica';
+	color: black !important;
+}
+
+#body-flow-dh #cap-flow-dh{
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom:15px;
+}
+#body-flow-dh #cap-flow-dh span{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+#body-flow-dh form table, th, td{
+  
+    padding: 10px;
+    text-align: center;
+}
+.fa-times {
+	color: black;
+	font-size: 150px;
+}
+.fa-times:hover{
+	color: red;
+}
+#body-flow-dh  button{
+  background-color: white;
+   border: none;
+}
+#body-flow-dh  #detail-sp{
+   background-color: #959996;
+}
+#body-flow-dh  #detail-sp a{
+   color: black;
+}
+#body-flow-dh #note{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#body-flow-dh #note span{
+	color: red;
+}
+
+
+
+
+@media (max-width: 575.98px){
+
+	#father{
+            border:2px solid gray;
+            width:auto;
+            overflow:auto;
+	}
+    #body-flow-dh form table, th, td{
+    font-size: 15px;
+	}
+}

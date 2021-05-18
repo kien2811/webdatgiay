@@ -1,0 +1,100 @@
+#body{
+	background-color: white;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	padding-top: 20px; 
+}
+#body #cap{
+	font-size: 30px;
+	border-bottom: 2px solid black;
+}
+#body #seach input{
+	font-size: 20px;
+}
+#body #add #sp{
+	padding: 8px;
+	text-align: center;
+	color: white;
+	border: none;
+	background-color: #34A853;
+	box-shadow: 0px 0px 1px black;
+}
+#body #add #sp:hover{
+	color: black;
+	border: 1px solid black;
+}
+#body #add #sale{
+	padding: 8px;
+	border: none;
+	color: white;
+	background-color:#EB4924;
+	box-shadow: 0px 0px 1px black;
+}
+#body #add #sale:hover{
+	color: black;
+	border: 1px solid black;
+}
+#body #add #reset{
+	padding: 8px;
+	border: none;
+	color: white;
+	background-color:#3b5998;
+	box-shadow: 0px 0px 1px black;
+}
+#body #add #reset:hover{
+	color: black;
+	border: 1px solid black;
+}
+#body table{
+	margin-top: 10px;
+}
+#body table tr th,td{
+	text-align:center;
+}
+
+#body table tr td #stt-01{
+	color: #EB4924; 
+	font-weight: bold;
+	text-shadow: 0px 0px 1px yellow;
+	
+}
+#body table tr td #stt-02{
+	color: #34A853; 
+	font-weight: bold;
+	text-shadow: 0px 0px 1px yellow;
+	
+}
+#body table #dis-like{
+	padding: 2px;
+	text-align: center;
+	color: white;
+	border: 1px solid #EA4335;
+	background-color: #EA4335;
+	box-shadow: 0px 0px 1px black;
+}
+#body table #dis-like:hover{
+	color: black;
+	border: 1px solid black;
+}
+#body table #like{
+	padding: 2px;
+	text-align: center;
+	color: white;
+	border: 1px solid  #34A853; 
+	background-color:  #34A853; 
+	box-shadow: 0px 0px 1px black;
+}
+#body table #like:hover{
+	color: black;
+	border: 1px solid black;
+}
+#body #chuyen-trang{
+	position: relative;
+	top: -50px;
+	left: -50px;
+	float: right;
+}
+#body #chuyen-trang .pagination{
+	box-shadow: 0px 0px 2px black;
+
+}

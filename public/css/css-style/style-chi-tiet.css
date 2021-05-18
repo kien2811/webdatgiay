@@ -1,0 +1,442 @@
+
+/* these styles are for the demo, but are not required for the plugin */
+.zoom {
+	display:inline-block;
+	box-shadow: 0px 0px 2px black;
+}
+
+/* magnifying glass icon */
+.zoom:after {
+
+}
+
+.zoom img {
+
+	display: block;
+
+}
+
+.mySlides{
+	position:relative;
+	width: 420px;
+}
+
+#img-show{
+	float: left
+}
+#img-show img{
+	width:100% ;
+	cursor:pointer
+}
+#img-show img:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+
+/*css của phần slider show logo*/
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+
+	
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 10px;
+   border-top: 1px solid #e9dede; 
+  border-bottom: 1px solid #e9dede; 
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+
+
+/*phần sản phẩm*/
+#cap-sp{
+	background-color: #eae8e8;
+	padding: 12px;
+	text-align: center;
+}
+#cap-sp a{
+	font-size: 25px;
+	color: black;
+	text-decoration: none ;
+}
+
+/*phần chi tiết sản phẩm*/
+#body{
+	margin-top: 10px;
+}
+/*#body #thong-tin-sp h2{
+	text-align: center;
+}*/
+#body #thông-tin-sp li{
+	list-style: none;
+	font-size: 25px;
+}
+#body #thông-tin-sp input{
+	color: green;
+	border: none;
+	background-color: white;
+}
+#body #thông-tin-sp li select{
+	width: 250px;
+	background-color: #f5f5f5;
+	font-size: 20px;
+	color: #878787;
+	border: none;
+	padding: 5px;
+}
+#body #thông-tin-sp li select option{
+	font-size: 20px;
+	color: #878787;
+	border: 1px solid black;
+}
+#body #thông-tin-sp button{
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+#body #thông-tin-sp button:hover{
+	border: 1px solid black;
+	color: black;
+
+}
+#img-mt img{
+	width: 80%;
+}
+#body #thong-tin-them li {
+	list-style: none;
+	font-size: 15px;
+	color: #878787;
+}
+
+#layer_sale{
+	position: absolute;
+	top: 2%;left: 70%;
+}
+#layer_sale #sale{
+	background-color: #ed1b24;
+	width: 45px; height: 45px ;
+	border-radius: 50%;
+}
+#layer_sale #sale #nb_sale{
+	position: absolute;
+	top: 25%;left:20%;
+	color: white
+}
+
+
+/*phần này của đánh giá sản phẩm
+*/
+/*phần body*/
+#menu1 #cap-feedback h5{
+	font-weight: bold;
+}
+#menu1 #cap-feedback {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#menu1 #file-img-feb{
+	border: 1px solid #e9dede;
+	height: 230px;
+	position: relative;
+}
+#menu1 input[type="file"]{
+	display: none;
+}
+#menu1 #file-img-feb label{
+	left: 35%;
+	top: 45%;
+	color: #e9dede;
+	position: absolute;
+}
+#menu1 #file-img-feb:hover{
+	border: 1px solid black;
+}
+#menu1 #file-img-feb label:hover{
+	color: black;
+}
+
+
+/*phần css hiển thị ảnh */
+.Choicefile
+  {
+   display:block;
+   background:#0877D8;
+   border:1px solid #fff;
+   color:#fff;
+   width:100px;
+   text-align:center;
+   text-decoration:none;
+   cursor:pointer;
+   padding:5px 0px;
+   }
+   #uploadfile,.removeimg
+   {
+    display:none;
+   }
+   #thumbbox
+   {
+    position:absolute;
+    top:20px;
+    left: 50px;
+   
+   }
+   .removeimg
+   {
+   background:  url("http://png-3.findicons.com/files/icons/2181/34al_volume_3_2_se/24/001_05.png")  repeat scroll 0 0 transparent;
+   height: 24px;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   width: 24px;
+  
+   }
+
+
+#menu1 #conten-feb{	
+}
+
+#menu1 #conten-feb textarea{
+	width: 100%;
+	height: 50%;
+	text-indent: 2%;
+
+}
+/*đoạn này css tạo sao đánh giá*/
+div #stars {
+  width: auto;
+  display: inline-block;
+  
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+	  font-size: 18px;
+	  float: right;
+	  color: #444;
+	  transition: all .2s;
+ 	padding-right: 5px;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 3px red;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+/*kết thúc  ngôi sao*/
+
+
+#menu1 #but-feb{
+	float: right;
+}
+
+
+/*phần conten feedback
+#content-feb{
+	margin-top: 10px;
+}
+/*#content-feb #row{
+	background-color: red;
+	padding-bottom: 10px;
+}*/
+
+}
+#content-feb h5{
+	padding-top: 10px;
+	font-weight: bold;
+
+}
+#content-feb h5 span{
+	border-bottom:2px solid black;
+}
+
+.fa-star {
+
+	color: gold;
+}
+#feb-ct{
+	padding-bottom: 15px;
+}
+#feb-ct #img-feb{
+	max-width: 100%;
+	max-height: auto;
+
+}
+#feb-ct #comenter-custormer{
+	background-color: #e9dede;
+	padding-top: 4%;
+   	
+
+}
+#feb-ct #comenter-custormer span{
+	 word-break: break-all;
+
+}
+#content-feb #page-feb{
+/*	background-color: red;*/
+	padding-top: 10px;
+
+}
+#content-feb #page-feb a{
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1024px){
+}
+
+
+
+/*sản phảm liên quan*/
+
+#sp-lien-quan {
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #231f20;
+}
+#sp-lien-quan b{
+	font-size: 25px;
+	border-bottom: 2px solid #231f20;
+	padding-bottom: 5px;
+}
+#sp {
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+#sp:hover{
+	box-shadow: 2px 2px 3px #b8b2b2;
+}
+#sp img{
+	width: 245px;
+}
+#sp li{
+	list-style: none;
+}
+#sp button{
+	margin-top: 5px;
+	border: none;
+	color: white;
+	background-color: black;
+}
+/*phần mô tả*/
+#body #mo-ta-sp{
+	margin-top: 10px;
+	text-align: left;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #e3e3e3;
+	font-size: 25px;
+}
+
+#body #mo-ta-chu{
+	margin-top: 10px;
+}
+#body #mo-ta-img img{
+	width: 170px;
+	margin-top: 10px;
+
+}
+
+
+@media (max-width: 575.98px){
+
+	.mySlides{
+	width: 100%;
+	}
+	#img-show img{
+	width:250% ;
+	margin-bottom:30px;
+	}
+	#san-pham{
+		margin-bottom: 10px;
+	}
+	/*phần mô tả*/
+	#body #mo-ta-sp{
+		text-align: center;
+		background-color:  #231f20;
+		border-bottom:none;
+		font-size: 20px;
+		color: white;
+	}
+
+	#sp-lien-quan {
+	height:30px;
+	background-color: #231f20;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 15px;
+	border-bottom: none;
+	text-align: center;
+	}
+	#sp-lien-quan b{
+		font-size: 20px;
+		border-bottom: none;
+		padding-bottom: 0px;
+		color: white;
+	}
+}
+

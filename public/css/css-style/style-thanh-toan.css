@@ -1,0 +1,211 @@
+html,body{
+	font-family: 'Helvetica';
+	color: black !important;
+}
+
+
+#body-pay #cap-pay{
+	padding-top: 5px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+#body-pay #cap-pay h5{
+	font-weight: bold;
+
+}
+#body-pay #cap-pay h5 span{
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+
+}
+#body-pay #information-pay{
+	border: 1px solid #e9dede;
+	max-height: 385px;
+
+}
+#body-pay #information-pay h5{
+	padding-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+#body-pay #information-pay #input-pay{
+	margin: auto;
+}
+#body-pay #information-pay #input-pay label{
+	text-align: right;
+}
+#body-pay #information-pay #input-pay input{
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#body-pay #information-pay #input-pay select{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	color: gray;
+}
+#body-pay #information-pay #input-pay select option{
+	background-color: #eae8e8;
+}
+#body-pay #information-pay #input-pay #mess-pay{
+	position: relative;
+	bottom:30px;
+}
+#body-pay #information-pay #input-pay textarea{
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#body-pay #information-pay #input-pay #pay-bank{
+	display: inline-block;
+}
+#body-pay #information-pay #input-pay #pay-after{
+	display:block; position: relative; left: 185px;
+}
+#body-pay #list-cart{
+	border: 1px solid black;
+	background-color: #e5eae6;
+	padding: 3px;
+}
+#body-pay #list-cart h5{
+	padding-top: 10px;
+	font-size:18px;
+}
+#body-pay #list-cart h5 a{
+	padding-left: 40px;
+	color: black;
+}
+#body-pay #list-cart #san-pham-cart{
+	margin-top: 5px;
+	border: 1px solid black;
+	background-color: #9b9b9b;
+
+}
+#body-pay #list-cart #san-pham-cart img{
+	width: 70px;
+	height: 70px;
+
+}
+#body-pay #list-cart #san-pham-cart div{
+	
+	width: 100px;
+/*	background-color: red;*/
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+#body-pay #row{
+	margin-top: 40px;
+}
+#body-pay #row #code-sale{
+	/*background-color: red;*/
+	position: relative;
+	left: -15px;
+}
+#body-pay #row #code-sale input[type="submit"]{
+	background-color: #6a6d6a;
+	border: 1px solid #6a6d6a;
+	height: 35px;
+}
+#body-pay #row #code-sale input[type="submit"]:hover{
+	background-color: black;
+	border: 1px solid #6a6d6a;
+	height: 35px;
+	color: white;
+}
+#body-pay #row #but-pay{
+	float: right;
+	margin-bottom: 20px;
+}
+#body-pay #row #but-pay input{
+	float: right;
+	width: 150px;
+	padding: 10px;
+	background-color: #09f42f;
+	border: 1px solid #09f42f;
+	color: white;
+	font-size: 20px;
+}
+#body-pay #row #but-pay input:hover{
+	background-color: #09f42f;
+	border: 1px solid black;
+	color: black;
+
+}
+
+
+@media (max-width:1024px){
+	#body-pay #information-pay{
+	max-height: 430px;
+
+	}
+
+}
+@media (max-width:768px){
+	#body-pay #cap-pay h5{
+		font-size: 16px;
+
+	}
+	#body-pay #information-pay{
+	max-height:500px;
+
+	}
+
+}
+
+
+@media (max-width: 575.98px){
+
+
+	
+	/*phần này của trang thanh toán*/
+	#body-pay #cap-pay{
+	background-color:white;
+	padding-top: 5px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	}
+	#body-pay #cap-pay h5{
+		font-size: 20px;
+
+	}
+	#body-pay #information-pay{
+	max-height: 570px;
+
+	}	
+	#body-pay #information-pay #input-pay #pay-bank{
+	display: inline;
+	font-size: 15px;
+
+	}
+	#body-pay #information-pay #input-pay #pay-after{
+		display:block; position: relative; left: 0px;
+		text-align: left;
+		font-size: 15px;
+	}
+	#body-pay #information-pay #input-pay #mess-pay{
+	position: relative;
+	bottom:0px;
+	}
+	#body-pay #list-cart{
+	margin-top: 10px;
+	}
+	#body-pay #row #code-sale{
+	/*background-color: red;*/
+	position: relative;
+	left: 0px;
+	}
+	#body-pay #row #but-pay{
+	float: none;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+}

@@ -1,0 +1,121 @@
+html,body{
+	font-family: 'Helvetica';
+	color: black !important;
+}
+
+/*phần body*/
+#body-cart #cap-cart h3{
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+#body-cart #cap-cart h3 span{
+	text-align: left;
+	font-size: 18px;
+	padding-bottom: 2px;
+	border-bottom: 2px solid black;
+}
+#body-cart #list-cart #sanpham-cart{
+	
+	height: 140px;
+	border-bottom: 1px solid #e9dede;
+}
+.fa-times-circle{
+	color: gray;
+}
+.fa-times-circle:hover{
+	color: black;
+}
+#body-cart #list-cart #sanpham-cart:hover{
+	background-color: #eae8e8;
+}
+#body-cart #list-cart #sanpham-cart td img{
+	width: 100px;
+	width: 100px;
+}
+#body-cart #list-cart #sanpham-cart td input[type="number"]{
+	text-align: center;
+	width: 40px;
+}
+#body-cart #list-cart #sanpham-cart button{
+	background-color: #34A853;
+	border: 1px solid 	#34A853;
+	color: white;
+	box-shadow:0px 0px 1px black;
+}
+#body-cart #list-cart #sanpham-cart button:hover{
+	background-color:#34A853;
+	color: black;
+}
+#body-cart #tol-tal-pay{
+	float: right;
+	margin-top: 10px;
+}
+#body-cart #tol-tal-pay span{
+	color: red;
+}
+#body-cart #layer-but{
+	margin-top: 50px;
+	padding-bottom: 80px;
+}
+#body-cart #layer-but input{
+	background-color: #cccccc;
+	border: 1px solid #cccccc;
+	color: black;
+	height: 50px;
+}
+#body-cart #layer-but button{
+	background-color: #cccccc;
+	border: 1px solid #cccccc;
+	color: black;
+	height: 50px;
+}
+#body-cart #layer-but input:hover{
+	background-color:black;
+	color: white;
+	 box-shadow: 0px 0px 3px #b8b2b2;
+}
+#body-cart #layer-but button{
+	background-color: #cccccc;
+	border: 1px solid #cccccc;
+	color: black;
+}
+#body-cart #layer-but button:hover{
+	background-color:black;
+	color: white;
+	 box-shadow: 0px 0px 3px #b8b2b2;
+}
+
+#body-cart #layer-but #but-lert{
+	float: left;
+}
+#body-cart #layer-but #but-rig{
+	float: right;
+}
+
+@media (max-width: 575.98px){
+
+	/*phần này của trang giỏ hàng*/
+	#body-cart #cap-cart h3{
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	#body-cart #list-cart{
+		border:2px solid gray;
+        width:auto;
+        overflow:auto;
+	}
+	#body-cart #layer-but input{
+	width: 85px;
+	font-size: 12px;
+	}
+	#body-cart #layer-but button{
+	width: 120px;
+	font-size: 12px;
+	}
+
+}
